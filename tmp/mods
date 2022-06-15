@@ -1,0 +1,83 @@
+MODS arguments : -no_net
+
+MODS start: Wed Jun 15 13:36:45 2022 
+
+Command Line : gputest.js -oqa 
+
+CPU
+Arch           : x86_64
+Name           : Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz
+Cores          : 6
+
+Version
+MODS           : 455.127
+
+System
+OperatingSystem: Linux (x86_64)
+Kernel         : 5.9.1-gentoo-x86_64
+KernelDriver   : 4.00
+SBIOS Version  : 1554.80.3.0.0
+SBIOS Date     : 01/06/2021
+HostName       : tinylinux
+Available RAM  : 7448/7819 MB (Free/Size)
+Sys-uuid       :  
+HDD-Serno      : 
+
+                 GPU 0 [01:00.0]  dev.sub 0.0             
+                 ---------------------------------------- 
+DevInst        : 0                                        
+PCI Location   : 0x00, 0x01, 0x00, 0x00                   
+GPU DID        : 0x1f91                                   
+PDI            : 0xa2ac517dbd0a748d                       
+Raw ECID       : 0x015fc4400000005a05c72591               
+Raw ECID (GHS) : 0x1645a05c72400000011fe0280              
+ECID           : TSMC-PMWN79-17_x-4_y10                   
+Device Id      : TU117                                    
+Revision       : a1                                       
+Sub Revision   : 0                                        
+NV Base        : 0xd3000000                               
+FB Base        : 0xc0000000                               
+IRQ            : 16                                       
+WARNING: GFW boot did not complete. May be due to an invalid FS config
+  Boot status = 0x00000001
+  NV_PFB_FBPA_FALCON_MONITOR = 0x00000000
+  NV_PFB_FBPA_TRAINING_CMD = 0x00000000
+  NV_PFB_FBPA_0_TRAINING_STATUS = 0x00000000 
+  NV_PFB_FBPA_1_TRAINING_STATUS = 0x00000000 
+  NV_PFBFALCON_FIRMWARE_MAILBOX(0) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(1) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(2) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(3) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(4) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(5) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(6) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(7) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(8) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(9) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(10) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(11) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(12) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(13) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(14) = 0x00000000
+  NV_PFBFALCON_FIRMWARE_MAILBOX(15) = 0x00000000
+Error 000000000167 : Gpu.Initialize GFW boot reported a failure [2.217 seconds]
+Error 000000000167 : Global.PrintGpuInitError GFW boot reported a failure [0.000 seconds]
+Error 000000000167 : Global.InitializeGpuTests GFW boot reported a failure [2.251 seconds]
+
+RmDestroyGpu failed
+
+Error Code = 000000000167 (GFW boot reported a failure)
+
+                                        
+ #######     ####    ########  ###      
+ #######    ######   ########  ###      
+ ##        ##    ##     ##     ###      
+ ##        ##    ##     ##     ###      
+ #######   ########     ##     ###      
+ #######   ########     ##     ###      
+ ##        ##    ##     ##     ###      
+ ##        ##    ##  ########  ######## 
+ ##        ##    ##  ########  ######## 
+                                        
+
+MODS end  : Wed Jun 15 13:36:48 2022  [3.146 seconds (00:00:03.146 h:m:s)]
